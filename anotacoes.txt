@@ -1,0 +1,5 @@
+Styled Components
+
+- para instalar yarn add styled-components
+- para usa-lo criar um arquivo com o estilo colocado dentro de uma tagged template
+- fornece alguns recursos do sass, e para referenciar algum componente para hover, focus, usa se o &
