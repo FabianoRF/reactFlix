@@ -3,7 +3,17 @@ Styled Components
 - para instalar yarn add styled-components
 - para usa-lo criar um arquivo com o estilo colocado dentro de uma tagged template
 - fornece alguns recursos do sass, e para referenciar algum componente para hover, focus, usa se o &
+- Para usar um componente importado dentro de um styled component basta colocar entre paraenteses o nome do mesmo apos o styled:
+    ex: const button = styled(Link)
+- Já vem com o child injetado automaticamente
+
 
 router-dom
 
 - Para tratar o erro 404 basta deixar de colocar o path no Router
+
+reack-slick
+
+- um componente de carousel
+- para instalar: yarn add react-slick
+- adicionar também dois arquivos css no index.html
