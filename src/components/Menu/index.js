@@ -1,18 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import LogoMain from '../../assets/img/LogoMain.png';
 import Button from '../Button'
 
-//import ButtonLink from './ButtonLink';
 import './Menu.css'
 
 const Menu = () =>{
     return(
         <nav className="Menu">
-            <a href="/">
+            <Link to="/">
                 <img className="Logo" src={LogoMain} alt="AluraFlix logo" />
-            </a>
+            </Link>
 
-            <Button as="a" className="ButtonLink" href="/home" >
+            <Button as={Link} className="ButtonLink" to="/cadastro/video" >
                 Novo vídeo
             </Button>
         </nav>
