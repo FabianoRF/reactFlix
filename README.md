@@ -1,6 +1,6 @@
 ## Alura Flix
 
-Projeto criado durante o evento Imersão React promovido pela Alura. Uma aplicação SPA(Simgle Page Aplication) que possui uma interface semelhante à Netflix, onde são exibidos conteúdos sobre programação e tecnologia, sendo também possível o cadastro de novo videos e categorias.
+Projeto criado durante o evento Imersão React promovido pela Alura. Uma aplicação SPA(Single Page Aplication) que possui uma interface semelhante à Netflix, onde são exibidos conteúdos sobre programação e tecnologia, sendo também possível o cadastro de novo videos e categorias.
 
 ### Onde ficam armazenados os dados
 
