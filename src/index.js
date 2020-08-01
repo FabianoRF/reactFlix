@@ -7,8 +7,7 @@ import Home from './pages/Home';
 import CadastroVideo from './pages/cadastro/Video'
 import CadastroCategoria from './pages/cadastro/Categoria'
 
-//separar
-const Pagina404 = ()=>( <iframe title="flappybird" src="https://mariosouto.com/flappy-bird-devsoutinho/" width="340" height="600" />);
+const Pagina404 = () => ( <iframe title="flappybird" src="https://mariosouto.com/flappy-bird-devsoutinho/" width="340" height="600" />);
 
 ReactDOM.render(
   <BrowserRouter>
