@@ -17,3 +17,12 @@ reack-slick
 - um componente de carousel
 - para instalar: yarn add react-slick
 - adicionar também dois arquivos css no index.html
+
+Extras 
+
+- o Envento passado e: tem como target o elemento e o target.value o valor do elemento
+
+ESLint - intalação: yarn eslint --init
+- responder as perguntas feitas no terminal e pode se usar regras de algum repositorio(exemplo deste é o airbnb: https://github.com/airbnb/javascript)
+
+Json server- inicia um miniservidor de json rapidamente no localhost

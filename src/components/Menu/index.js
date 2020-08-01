@@ -1,22 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import LogoMain from '../../assets/img/LogoMain.png';
-import Button from '../Button'
+import Button from '../Button';
 
-import './Menu.css'
+import './Menu.css';
 
-const Menu = () =>{
-    return(
-        <nav className="Menu">
-            <Link to="/">
-                <img className="Logo" src={LogoMain} alt="AluraFlix logo" />
-            </Link>
+const Menu = () => (
+  <nav className="Menu">
+    <Link to="/">
+      <img className="Logo" src={LogoMain} alt="AluraFlix logo" />
+    </Link>
 
-            <Button as={Link} className="ButtonLink" to="/cadastro/video" >
-                Novo vídeo
-            </Button>
-        </nav>
-    )
-}
+    <Button as={Link} className="ButtonLink" to="/cadastro/video">
+      Novo vídeo
+    </Button>
+  </nav>
+);
 
 export default Menu;
